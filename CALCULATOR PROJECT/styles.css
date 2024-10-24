@@ -1,0 +1,111 @@
+/* General body styling */
+body {
+    font-family: 'Arial', sans-serif;
+    color: #333333;
+    background-color: #f5f5f5;
+    padding: 20px;
+}
+
+/* Styling the card */
+.card {
+    background-color: lightblue;
+    border: none;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+/* Styling the heading */
+.heading {
+    color: #5a5a5a;
+}
+
+/* Form input fields */
+.form-control {
+    background-color: #e0e0e0;
+    color: #333333;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+/* Input group addon */
+.input-group-addon {
+    background-color: #cccccc;
+    color: #333333;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+/* Tip percentage slider */
+#tipInput {
+    width: 100%;
+    appearance: none;
+    height: 8px;
+    background-color: #b3b3b3;
+    border-radius: 5px;
+    outline: none;
+    transition: background 0.3s;
+}
+
+#tipInput::-webkit-slider-thumb {
+    appearance: none;
+    width: 20px;
+    height: 20px;
+    background-color: #7d7d7d;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+#tipInput::-moz-range-thumb {
+    width: 20px;
+    height: 20px;
+    background-color: #7d7d7d;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+/* Tip output styling */
+#tipOutput {
+    color: #666666;
+    font-weight: bold;
+    margin-left: 10px;
+}
+
+/* Results section */
+#results {
+    background-color: #f0f0f0;
+    border-radius: 10px;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+#results h5 {
+    color: #666666;
+}
+
+#tipAmount,
+#totalBillWithTip {
+    background-color: #e0e0e0;
+    color: #333333;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+}
+
+/* Button hover effect */
+.form-control:hover,
+.input-group-addon:hover,
+#tipInput:hover {
+    background-color: #d6d6d6;
+    cursor: pointer;
+}
+
+/* Input focus effect */
+.form-control:focus,
+.input-group-addon:focus,
+#tipInput:focus {
+    outline: none;
+    box-shadow: 0 0 10px rgba(102, 102, 102, 0.5);
+}
+
